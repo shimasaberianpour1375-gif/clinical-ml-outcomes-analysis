@@ -1,4 +1,4 @@
-# clinical-ml-outcomes-analysis
+# Clinical-ml-outcomes-analysis
 Clinical Outcome Analysis on Real World Musculoskeletal Data
 
 ## Overview
