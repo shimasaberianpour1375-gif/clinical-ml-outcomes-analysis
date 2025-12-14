@@ -1,5 +1,5 @@
 # Clinical Outcome Analysis on Real World Musculoskeletal Data
-Clinical Outcome Analysis on Real World Musculoskeletal Data
+Preprocessing is shared across training and evaluation to ensure consistent feature definitions.
 
 ## Overview
 This repository contains the analysis and modelling work for my MSc dissertation in Data Analytics. The project focuses on analysing a large real world musculoskeletal clinical dataset to understand and predict patient outcomes. The emphasis was on interpretability, statistical validity, and decision making under real data constraints rather than maximising model accuracy.
@@ -24,6 +24,19 @@ The project followed an end to end analytical workflow with an emphasis on reaso
 - Application of explainability techniques to interpret model behaviour
 
 Model choice was guided by suitability to the problem context rather than raw performance metrics.
+## What Was Implemented
+
+The analysis was implemented as an end to end workflow covering data preparation, modelling, evaluation, and interpretability.
+
+Key elements include:
+
+- Structured preprocessing and feature engineering to produce consistent model ready datasets
+- Multiple classification models including logistic regression, random forest, gradient boosted trees, and neural networks
+- andling of class imbalance and comparison of baseline versus tuned models
+- Evaluation using ROC AUC, confusion matrices, and calibration analysis
+- Model interpretability using feature importance, permutation importance, and SHAP for tree based models
+
+The focus was on understanding model behaviour and decision reliability rather than maximising raw predictive performance.
 
 ## Key Decisions and Trade Offs
 - Simpler, interpretable models were prioritised when performance gains from complex models were marginal
@@ -38,7 +51,7 @@ The final outcome was an analysis designed to support informed reasoning rather 
 - data_preprocessing  
   Scripts and notebooks for preparation and validation
 
-- analysis  
+- eda  
   Exploratory analysis and statistical testing
 
 - models  
